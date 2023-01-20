@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Jumpy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img id="logoDnc" src="assets/logoDnc.png" alt="Logo dnc">
+        <img id="logoJumpy" src="assets/logoJumpy.png" alt="Logo Jumpy">
+    </header>
+    <section>
+        <h1>Bem vindo ao Jumpy!</h1>
+        <form action="">
+            
+            <label>Nome Completo:</label>
+            <input id="nome" type="text" placeholder="Nome completo">
+            <span id="validaNome">*Campo Obrigatório*</span>
+            
+            <label>Email:</label>
+            <input id="email" type="email" placeholder="Email@email.com">
+            <span id="validaEmail">*Campo Obrigatório*</span>
+            
+            <label>Telefone:</label>
+            <input id="tel" type="tel" placeholder="(24) 991513-4965">
+            <span id="validaTel">*Campo Obrigatório*</span>
+            
+            <label>CPF:</label>
+            <input id="cpf" type="number" placeholder="452.849.235-980">
+            <span id="validaCpf">*Campo Obrigatório*</span>
+            
+            <label>Senha:</label>
+            <input id="senha" type="password" placeholder="*******************">
+            <span id="validaSenha">*Campo Obrigatório*</span>
+            
+            <button type="submit" >Cadastrar</button>
+            <span id="validaButton">*Campo Obrigatório*</span>
+        </form>
+
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
